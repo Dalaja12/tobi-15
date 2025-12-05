@@ -120,9 +120,9 @@
     100% { transform: scaleY(1); }
 }
 /* Reducir solo el BMO en móviles */
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .bmo-screen {
-        transform: scale(0.85);   /* Reduce tamaño un 15% */
+        transform: scale(0.80);   /* Reduce tamaño un 15% */
         transform-origin: center; /* Para que no se mueva a un lado */
     }
 }
@@ -3723,3 +3723,4 @@ body.fainted #mouth {
     }
 
 }
+

@@ -1261,6 +1261,18 @@
     border-radius: 10px;
     pointer-events: none;
 }
+.bmo-frame {
+    position: relative;
+}
+
+
+@media (max-width: 600px) {
+    .bmo-frame {
+        transform: scale(0.85);
+        transform-origin: top center;
+    }
+}
+
 
 /* Efecto de pantalla CRT */
 .crt-effect {
@@ -3723,4 +3735,5 @@ body.fainted #mouth {
     }
 
 }
+
 
